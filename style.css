@@ -1,0 +1,282 @@
+/* Add some basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+header, nav, section, footer {
+  display: block;
+  margin: 20px;
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+header {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #c3c3c3;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav li a {
+  text-decoration: none;
+  color: #2b2b2b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+nav li a:hover {
+  background-color: #006400;
+  color: #fff;
+}
+h2 {
+  margin-top: 40px;
+  color: #c3c3c3;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.resume {
+  padding: 2em;
+}
+
+.resume h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.resume h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.resume table {
+   border-collapse: collapse;
+  width: 100%;
+}
+
+.resume th {
+}
+
+.resume td {
+  border: 1px solid #fff;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.resume th {
+  background-color: #2ecc71;
+}
+
+.resume td {
+  background-color: #34495e;
+}
+
+.resume tbody tr:nth-child(even) td {
+  background-color: #2c3e50;
+}
+
+.resume ul {
+  margin-left: 1.5em;
+  list-style: disc;
+}
+
+
+
+#timetable {
+
+  color: #c3c3c3;
+  padding: 1em;
+}
+
+#timetable h2 {
+  color: #c3c3c3;;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#timetable table {
+
+  background-color: #333;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#timetable th,
+#timetable td {
+  border: 1px solid #fff;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+#timetable th {
+  background-color: #2ecc71;
+}
+
+#timetable td {
+  background-color: #34495e;
+}
+
+#timetable tbody tr:nth-child(even) td {
+  background-color: #2c3e50;
+}
+
+.skillset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skillset-list li {
+  margin-bottom: 20px;
+}
+
+.skillset-list li span {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.skillset-bar {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.skillset-progress {
+  background-color: #6CBF84;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  height: 100%;
+  text-align: center;
+  transition: width 0.5s;
+}
+
+.skillset-progress:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .skillset-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skillset-list li {
+    width: calc(33.33% - 10px);
+    margin-right: 20px;
+  }
+}
+
+.gallery {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto; /* add scroll bar */
+  height: 300px; /* set height of gallery */
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media-item {
+  width: calc(50% / 3);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.media-item img {
+  width: 100%;
+}
+
+.media-item video {
+  width: 100%;
+  height: auto;
+}
+
+.media-item audio {
+  width: 100%;
+}
+
+
+#download a.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3cb371;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#download a.button:hover {
+  background-color: #2e8b57;
+}
+
+.social-media-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-media-links a {
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.btn-instagram {
+  background-color: #c13584;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+
+
+
+
+
+
